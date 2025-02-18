@@ -1,0 +1,182 @@
+/* Mobile first */
+/* color palette:
+.background background: #f0ece2; 
+.accent background: #dfd3c3; 
+.footer background: #c7b198; 
+.header background: #596e79;
+*/
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0ece2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* arranging all content on site in column */
+}
+/* ===HEADER STYLE=== */
+header{
+    height: 100px;
+    width: 100%;
+    /* makes sure header covers the whole width */
+    /* background-color: #596e79; */
+    background-color: #c7b198;
+    display: flex;
+    /* start flex */
+    flex-direction: column;
+    /* placing element in column */
+    justify-content: space-evenly;
+    /* spacing out element evenly */
+    align-items: center;
+    /* centering elements for even look */
+    border-bottom: 3px #f5f5f5 solid;
+    /* adding a white border in the bottom of the header */
+}
+nav ul {
+    list-style: none;
+    /* remove the dot in list */
+    display: flex;
+    justify-content: center;
+    /* centering menu buttons */
+    gap: 30px;
+}
+/* Button styles */
+a:link, a:visited {
+    text-decoration: none;
+    color: black
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+a.active {
+    text-decoration: underline;
+    /* adding subtle underline in active nav button to show which page user is on  */
+}
+a.active:hover, a.active:focus, a.active:active {
+    text-decoration: underline;
+    /* adding subtle underline in active nav button to show which page user is on  */
+}
+/* /Button styles *
+/* ===/HEADER STYLE=== */
+
+/* ===MAIN STYLE=== */
+main {
+    flex: 1;
+    /* makes sure Main element fills the screen that header and footer doesn't cover */
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    /* padding top 20px, right 20px, bottom 0 and left 20px */
+}
+.info-pic {
+    width: 60%;
+    min-width: 200px;
+    /* min width set so it wont get smaller than 200px in width */
+    height: auto;
+    /* height set to auto to keep aspect ratio when minimizing the picture */
+    min-height: 300px;
+    /* min height set so it wont get smaller than 300px in height */
+    border: solid 1px #dfd3c3;
+    border-radius: 60%;
+    /* framing the image */
+    padding: 0;
+}
+.info-text {
+    padding: 20px;
+}
+.info_border-bottom {
+    /* adding a border in the bottom that only cover 80% for a nice look */
+    border-bottom: 1px solid #596e79;
+    width: 80%;
+
+}
+.projects {
+    padding: 20px 40px;
+    /* padding top and bottom 20px left and right 40px */
+}
+.project-header {
+    margin-bottom: 10px;
+}
+.project-cards {
+    display: flex;
+    gap: 10px;
+}
+.project-card {
+    border: red solid 1px; /* remove on deploy */
+    min-width: 150px;
+    height: 300px;
+
+}
+
+/* ===/MAIN STYLE=== */
+
+/* === FOOTER STYLE === */
+footer {
+    background-color: #c7b198;
+    display: flex;
+    align-items: center;
+    /* centering text and icons in y-axis */
+    justify-content: space-between;
+    /* placing taxt and icons on each side of footer */
+    padding: 20px;
+    /* adding 10px padding for a cleaner look */
+    height: 40px;
+    width: 100%;
+    /* footer cover the whole width */
+}
+.footer-icons {
+    display: flex;
+    gap: 10px;
+    /* spacing the icons 10px away from eachother with flex and gap  */
+}
+/* === /FOOTER STYLE === */
+
+/* === DESKTOP === */
+@media (min-width: 641px)  {
+
+/* HEADER STYLE */
+/* /HEADER STYLE */
+
+/* MAIN STYLE */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info {
+    flex-direction: row;
+    max-width: 800px;
+}
+.info-pic {
+    padding: 60px;
+    border: none;
+    min-width: unset;
+    /* removing min-width enheritet from mobile first design */
+    min-height: unset;
+    /* removing min-height enheritet from mobile first design */
+    opacity: 0.9;
+}
+.info-pic:hover {
+    opacity: 1;
+    /* Nice effect when on desktop */
+}
+.info-text {
+    max-width: 60%;
+}
+
+.info_border-bottom {
+    display: none;
+}
+/* /MAIN STYLE */
+
+/* FOOTER STYLE */
+/* /FOOTER STYLE */
+}
