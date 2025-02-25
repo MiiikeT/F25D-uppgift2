@@ -1,0 +1,59 @@
+{
+    "projects": [
+      {
+        "title": "E-Commerce Platform",
+        "web_address": "https://www.shopmaster.com",
+        "description": "Developed a scalable online marketplace with secure payment integration and user-friendly design.",
+        "img": "#"
+      },
+      {
+        "title": "Social Media Analytics Tool",
+        "web_address": "https://www.analyzeitnow.com",
+        "description": "Created a web-based tool that tracks engagement metrics and provides actionable insights for businesses.",
+        "img": "#"
+      },
+      {
+        "title": "AI Chatbot Assistant",
+        "web_address": "https://www.smartbotai.com",
+        "description": "Built an AI-powered chatbot to enhance customer service and automate responses efficiently.",
+        "img": "#"
+      },
+      {
+        "title": "Project Management Dashboard",
+        "web_address": "https://www.tasktrackpro.com",
+        "description": "Designed a dashboard for tracking project progress, managing deadlines, and improving team collaboration.",
+        "img": "#"
+      }
+    ],
+    "jobs": [
+      {
+        "employer": "Youty AB",
+        "title": "Web Developer & IT administrator",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum maxime placeat quis tenetur tempora assumenda, officiis optio minima ratione, cupiditate ullam consequuntur in quas vero delectus repellendus nulla, fugiat veritatis dicta. Nostrum ratione, quod magni dicta asperiores praesentium distinctio impedit! Sapiente expedita aspernatur ratione deserunt doloribus, magnam corrupti earum fuga et quaerat. Suscipit dolore, unde itaque nisi non illo! Iure.",
+        "start_date": "2023-01-29",
+        "end_date": "2024-10-19"
+      },
+      {
+        "employer": "Din Bil Gruppen",
+        "title": "Showroom Host",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quisquam deleniti culpa exercitationem recusandae consectetur eius ipsum, eum, accusantium dolores quos provident aut reiciendis officiis reprehenderit sapiente neque inventore ducimus cumque aspernatur quae distinctio amet dolorem? Libero modi amet obcaecati veniam tempora veritatis necessitatibus voluptates.",
+        "start_date": "2022-05-01",
+        "end_date": "2024-06-01"
+      },
+      {
+        "employer": "Merkle Sverige",
+        "title": "Web developer Intern",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quisquam deleniti culpa exercitationem recusandae consectetur eius ipsum, eum, accusantium dolores quos provident aut reiciendis officiis reprehenderit sapiente neque inventore ducimus cumque aspernatur quae distinctio amet dolorem? Libero modi amet obcaecati veniam tempora veritatis necessitatibus voluptates.",
+        "start_date": "2022-10-01",
+        "end_date": "2022-12-15"
+      },
+      {
+        "employer": "Project Solutions LLC",
+        "title": "Project Manager",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum maxime placeat quis tenetur tempora assumenda, officiis optio minima ratione, cupiditate ullam consequuntur in quas vero delectus repellendus nulla, fugiat veritatis dicta. Nostrum ratione, quod magni dicta asperiores praesentium distinctio impedit! Sapiente expedita aspernatur ratione deserunt doloribus, magnam corrupti earum fuga et quaerat. Suscipit dolore, unde itaque nisi non illo! Iure.",
+        "start_date": "2018-05-01",
+        "end_date": "2023-05-01"
+      }
+    ]
+  }
+  
