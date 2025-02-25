@@ -190,11 +190,11 @@ footer {
     display: flex;
     align-items: center;
     /* centering text and icons in y-axis */
-    justify-content: space-between;
-    /* placing taxt and icons on each side of footer */
+    justify-content: center;
+    flex-direction: column-reverse;
     padding: 20px;
     /* adding 10px padding for a cleaner look */
-    height: 40px;
+    height: 60px;
     width: 100%;
     /* footer cover the whole width */
 }
