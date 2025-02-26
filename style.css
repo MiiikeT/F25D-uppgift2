@@ -179,7 +179,14 @@ main {
     display: flex;
     flex-direction: row;
     gap: 40px;
-
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.start-end-date {
+    font-size: x-small;
+    max-width: 35%;
+    /* Limiting start-end-date paragraph to 35%width */
 }
 /* - /portfolio.html - */
 /* ===/MAIN STYLE=== */
@@ -255,6 +262,13 @@ main {
 
 }
 /* - /contact.html - */
+
+/* - portfolio.html - */
+.work-header {
+    justify-content: flex-start;
+    /* Placing work-header on the left side in desktop */
+}
+/* - /portfolio.html - */
 
 /* /MAIN STYLE */
 
